@@ -1,0 +1,340 @@
+html {
+    margin: auto;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    max-width: 1500px;
+    min-width: 1500px;
+    margin: auto;
+    position: relative;
+    min-height: 100%;
+}
+
+html::-webkit-scrollbar {
+      width: 5px; 
+   }
+
+html::-webkit-scrollbar-track {
+    background-color: #12141D;
+  }
+
+html::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+    border-radius: 25px;
+  }
+
+body {
+    margin: auto;
+    background-color: #12141D;
+    margin-bottom: 60px;
+}
+.logo-img {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 46px;
+    height: 41px;
+}
+.Aleo-img {
+    width: 46px;
+    height: 41px;
+}
+
+.home-d {
+    margin-left: 30%;
+    display: inline-block;
+}
+.home-d-dtyle {
+    font-weight: 600;
+    color: white;
+}
+.home-d-dtyle:hover {
+    color: white;
+}
+.about-d {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.about-d-dtyle {
+   
+    font-weight: 600;
+    color: white;
+    outline-color:black;
+}
+.about-d-dtyle:hover{
+    color: white;
+}
+.blog-d {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.blog-d-dtyle {
+    font-weight: 600;
+    color: white;
+}
+.blog-d-dtyle:hover {
+    color: white;
+}
+.div-contact {
+    margin-left: 20%;
+    display: inline-block;
+    
+}
+.btn-contact {
+    padding-bottom: 4px;
+    width: 120px;
+    height: 36px;
+    border-radius: 20px;
+    color: white;
+    border-color: white;
+    background-color: #12141D;
+    border: 2px solid white;
+}
+.ob-tete {
+    display: inline-block;
+}
+.Main-txtS {
+    padding: 0px;
+    margin-top: 190px;
+    display: inline-block;
+}
+
+.Main-txts {
+    padding: 0px;
+    margin-top: 190px;
+    display: inline-block;
+    margin-left: 100px;
+    font-weight: 700;
+    margin-top: 180px;
+    color: white;
+    font-size: 70px;
+    text-align: left;
+}
+.img-points {
+    padding: 0px;
+    margin-top:-130px;
+    display: inline-block;
+    height: 633px;
+    width: 818px;
+
+}
+.more-info {
+    margin-left: 100px;
+    margin-top: -150px;
+}
+.btn-more-info {
+    background-color: #2757FF;
+    color: white;
+    border-radius: 20px;
+    height: 39px;
+    width: 130px;
+    border: 2px solid #2757FF;
+}
+.Tokenomics{
+    margin-top:250px;
+}
+.Tokenomics-txt{
+    color:white;
+    text-align:center;
+}
+
+.All-Launch {
+    display: inline-block;
+    margin-left: 17%;
+    margin-top: 60px;
+}
+.All-Launch-tx {
+    color: white;
+}
+.After-5-years {
+    margin-left: 45%;
+    display: inline-block;
+}
+.After-5-years-tx {
+    color: white;
+}
+.tokenomik-all {
+    display: inline-block;
+}
+.tokenomik-5 {
+    margin-left: 13%;
+    display: inline-block;
+}
+.O{
+    margin-top:-160px;
+}
+.indicators{
+
+}
+.blue {
+    margin-left: 22%;
+    background-color: #285BF4;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.aqua {
+    margin-left: 15%;
+    background-color: #00ECE3;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.green {
+    margin-left: 15%;
+    background-color: #1DE48E;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.purple {
+    margin-left: 15%;
+    background-color: #8F16EF;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.EARLY-BACKERS {
+    z-index: 3;
+    margin-left: 26%;
+    margin-top: -35px;
+}
+.EARLY-BACKERS-tx{
+    font-size: 20px;
+    color:white;
+}
+.TEAM {
+    z-index: 3;
+    margin-left: 44%;
+    margin-top: -34px;
+}
+.TEAM-tx {
+    font-size: 20px;
+    color: white;
+}
+.PUBLIC {
+    z-index: 3;
+    margin-left: 62%;
+    margin-top: -33px;
+}
+.PUBLIC-tx {
+    font-size: 20px;
+    color: white;
+}
+.GRANTS {
+    z-index: 3;
+    margin-left: 80%;
+    margin-top: -33px;
+}
+.GRANTS-tx {
+    font-size: 20px;
+    color: white;
+}
+.tech{
+    margin-top: 250px;
+}
+.tech-text {
+    color: white;
+    text-align: center;
+}
+.Aleo{
+    display:inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.Aleo-tx {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+.planet {
+    margin-top:-50px;
+    margin-left:250px;
+    display: inline-block;
+    height: 550px;
+    width: 550px;
+}
+.Aleo-2 {
+    margin-left:10px;
+    margin-right: 80px;
+    float: right;
+    display: inline-block;
+    margin-top: 50px;
+}
+.Aleo-tx-2 {
+
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+}
+.line_purple {
+    margin-right: 200px;
+    float:left;
+    display: inline-block;
+    height: 200px;
+    width: 600px;
+}
+.Aleo-3 {
+    display: inline-block;
+    margin-left: 100px;
+}
+.Aleo-tx-3 {
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+}
+.cloud {
+    margin-left: 250px;
+    display: inline-block;
+    height: 650px;
+    width: 550px;
+}
+.twitter {
+    margin-right: 100px;
+    display: inline-block;
+    height: 60px;
+    Width: 60px;
+}
+.twitter-img {
+
+    height: 60px;
+    Width: 60px;
+}
+.mediums {
+    display: inline-block;
+    height: 60px;
+    Width: 60px;
+}
+.medium-img {
+
+    height: 55px;
+    Width: 55px;
+}
+.git {
+    margin-left: 100px;
+    display: inline-block;
+    height: 60px;
+    Width: 60px;
+}
+.git-img {
+    height: 50px;
+    Width: 50px;
+}
+.foo{
+    margin-top: 100px;
+ text-align:center;   
+}
+
+

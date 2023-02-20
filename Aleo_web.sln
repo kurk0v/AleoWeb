@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aleo_web", "Aleo_web\Aleo_web.csproj", "{84F02D00-07C2-491C-A029-E6A03FFD3EF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84F02D00-07C2-491C-A029-E6A03FFD3EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F02D00-07C2-491C-A029-E6A03FFD3EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F02D00-07C2-491C-A029-E6A03FFD3EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F02D00-07C2-491C-A029-E6A03FFD3EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {628900CE-FBB8-4F1E-89F1-9889662CA8B0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,147 @@
+﻿@RenderBody()
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] AleoInfo</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="script" href="~/css/site.css" asp-append-version="true" />
+    <script src="~/js/site.js"></script> 
+    <link rel="shortcut icon" type="image/x-icon" href="~/img/aleologo.png" />
+</head>
+<body>
+    <header>
+    <div class="gorizontal-logo-btn">
+        <div class="logo-img">
+            <img class="Aleo-img" src="~/img/aleologo.png" />
+        </div>
+        <div class="home-d">
+            <a class="home-d-dtyle" href="">
+                home
+            </a>
+        </div>
+        <div class="about-d">
+            <a class="about-d-dtyle" href="#tokenom">
+                about
+            </a>
+        </div>
+        <div class="blog-d">
+                <a class="blog-d-dtyle" href="https://clck.ru/33ZGmX">
+                blog
+            </a>
+        </div>
+            <div class="div-contact">
+                <button onclick="window.location.href='https://t.me/kurkovvokruk'" class="btn-contact">
+                   contact
+              </button>
+            </div>
+    </div>
+    <div class="ob-tete">
+        <div class="Main-textS">
+                <h1 class="Main-txts">The place <br /> where everything  <br /> about Aleo</h1>
+                <img class="img-points" src="~/img/group 56 (5).png" />
+        </div>
+    </div>
+    <div class="more-info">
+            <button onclick="btn-more-info" class="btn-more-info">to learn more</button>
+    </div>
+    </header>
+    <main>
+        <div id="tokenom" class="Tokenomics">
+            <h1 class ="Tokenomics-txt">
+                Tokenomics
+            </h1>
+        </div>
+        <div class="All-Launch"> 
+            <h3 class="All-Launch-tx">All Launch</h3>
+        </div>
+        <div class="After-5-years">
+            <h3 class="After-5-years-tx">After 5 years</h3>
+        </div>
+        <div class="O">
+            <div class="tokenomik-all">
+                <img class="tokenomik-all-img" src="~/img/tokenomik_all.png" />
+            </div>
+            <div class="tokenomik-5">
+                <img class="tokenomik-5-img" src="~/img/tokenomik_5.png"/>
+            </div>
+        </div>
+        <div class="indicators">
+            <div class="blue"></div>
+            <div class="aqua"></div>
+            <div class="green"></div>
+            <div class="purple"></div>
+        </div>
+        <div class="text-cube">
+            <div class="EARLY-BACKERS">
+                <h1 class="EARLY-BACKERS-tx">EARLY BACKERS</h1>
+            </div>
+            <div class="TEAM">
+                <h1 class="TEAM-tx">TEAM</h1>
+            </div>
+            <div class="PUBLIC">
+                <h1 class="PUBLIC-tx">PUBLIC</h1>
+            </div>
+            <div class="GRANTS">
+                <h1 class="GRANTS-tx">GRANTS</h1>
+            </div>
+        </div>
+        <div class="tech">
+            <h1 class="tech-text">Technology</h1>
+        </div>
+        <div id="tech" class="Aleo">
+            <h1 class="Aleo-tx">
+                Aleo is a unique open source, scalable<br />
+                blockchain platform using zero-knowledge<br />
+                proof (ZK) technology
+            </h1>
+            <img class="planet" src="~/img/pl.png" />
+        </div>
+        <div class="Aleo-2">
+            <h1 class="Aleo-tx-2">
+                SnarkOS is a decentralized operating<br />
+                system that provides an anonymous<br />
+                web application platform that verifies<br />
+                transactions and publicly stores<br />
+                applications in an encrypted state        
+            </h1>
+            <img class="line_purple" src="~/img/line_purple.png" />
+        </div>
+        <div class="Aleo-3">
+            <h1 class="Aleo-tx-3">
+                zkCloud is a self-contained, untrusted <br />
+                computing environment in which programs<br />
+                run confidentially, securely and cheaply,<br />
+                and with unlimited runtime.
+            </h1>
+            <img class="cloud" src="~/img/cl.png" />
+        </div>
+    </main>
+    <footer>
+        <div class="foo">
+            <div class="twitter">
+                <a href="https://twitter.com/AleoHQ">
+                    <img class="twitter-img" src="~/img/pngegg.png" />
+                </a>
+            </div>
+            <div class="mediums">
+                <a href="https://discord.gg/aleohq">
+                    <img class="medium-img" src="~/img/pngwing.com.png" />
+                </a>
+            </div>
+            <div class="git">
+                <a href="https://github.com/AleoHQ">
+                    <img class="git-img" src="~/img/pngegg (1).png" />
+                </a>
+            </div>
+        </div>
+
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
